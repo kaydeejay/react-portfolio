@@ -11,7 +11,7 @@ const NavHeader = () => {
       <Navbar.Brand href="/">Kevin Devine-Jones</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
+        <Nav className="ml-auto">
           <Nav.Link
             href="/"
             className={location.pathname === '/' ? 'active' : ''}>
@@ -31,25 +31,6 @@ const NavHeader = () => {
       </Navbar.Collapse>
     </Navbar>
   );
-  // return (
-  //   <ul className="nav nav-tabs">
-  //     <li className="nav-item">
-  //       <Link to="/" className={location.pathname === '/' ? 'nav-link active' : 'nav-link'}>
-  //         About Me
-  //       </Link>
-  //     </li>
-  //     <li className="nav-item">
-  //       <Link to="/contact" className={location.pathname === '/contact' ? 'nav-link active' : 'nav-link'}>
-  //         Contact
-  //       </Link>
-  //     </li>
-  //     <li className="nav-item">
-  //       <Link to="/portfolio" className={location.pathname === '/portfolio' ? 'nav-link active' : 'nav-link'}>
-  //         Portfolio
-  //       </Link>
-  //     </li>
-  //   </ul>
-  // );
 }
 
 export default NavHeader;
