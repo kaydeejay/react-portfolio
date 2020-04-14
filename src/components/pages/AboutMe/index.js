@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import ContentCard from '../../ContentCard';
 import pseudoDB from '../../../utils/pseudoDB';
 
+import './style.css';
+
 const AboutMe = () => {
   const [cardContent, setCardContent] = useState({});
 

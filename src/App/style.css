@@ -7,4 +7,9 @@
 body {
   background-image: url(../assets/images/prism-background.png);
   background-repeat: repeat;
+  height: 100%;
+}
+
+.page-content {
+  flex: 1 0 auto;
 }
