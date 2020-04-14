@@ -5,10 +5,10 @@ const Footer = () => {
   return (
     <div className="fixed-bottom">
       <Navbar bg="light" expand="lg">
-        Footer!
+        <p className="ml-auto mr-auto">&#169; 2020</p>
       </Navbar>
     </div>
   )
 }
 
-export default Footer
+export default Footer;
