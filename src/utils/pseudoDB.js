@@ -13,22 +13,26 @@ const cards = {
     header: "Contact",
     cards: [
       {
+        key: 1,
         title: "Github",
         // <i class="fab fa-5x fa-github"></i>
         faIcon: "fab fa-5x fa-github",
-        href: "https://github.com/kaydeejay"
+        href: "/github"
       },
       {
+        key: 2,
         title: "Linkedin",
         faIcon: "fab fa-5x fa-linkedin",
-        href: "https://www.linkedin.com/in/kevinjones215/"
+        href: "/linkedin"
       },
       {
+        key: 3,
         title: "Resume",
         faIcon: "far fa-5x fa-file",
         href: "#" // path to resume
       },
       {
+        key: 4,
         title: "Email",
         faIcon: "far fa-5x fa-envelope",
         href: "mailto:kevin.jones215@gmail.com"

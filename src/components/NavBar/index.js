@@ -7,7 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 const NavHeader = () => {
   const location = useLocation();
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar className="top-nav" bg="light" expand="lg">
       <Navbar.Brand href="/">Kevin Devine-Jones</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

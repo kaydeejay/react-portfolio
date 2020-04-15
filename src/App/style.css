@@ -10,6 +10,14 @@ body {
   height: 100%;
 }
 
+.top-nav {
+  border-bottom: 10px solid #683ab7;
+}
+
 .page-content {
   flex: 1 0 auto;
+}
+
+.fixed-bottom {
+  border-top: 10px solid #683ab7;
 }

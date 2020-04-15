@@ -27,6 +27,7 @@ const Contact = () => {
         "loading" :
         cards.map(card => (
           <ContactLink 
+            key={card.key}
             title={card.title} 
             faIcon={card.faIcon} 
             link={card.href} 
