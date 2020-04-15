@@ -5,23 +5,30 @@ import pseudoDB from '../../../utils/pseudoDB';
 import './style.css';
 
 const AboutMe = () => {
-  const [cardContent, setCardContent] = useState({});
+  const [cardContent, setCardContent] = useState({
+    header: "",
+    image: "",
+    imageAlt: "",
+    text: []
+  });
 
   useEffect(() => {
     pseudoDB.getAbout()
       .then(res => setCardContent(res));
   }, []);
 
+  const { header, image, imageAlt, text } = cardContent;
+
   return (
-    <div>
-      <ContentCard
-        header={cardContent.header}
-        text={cardContent.text}
-        image={cardContent.image}
-        imageAlt={cardContent.imageAlt}
-      />
-    </div>
-  )
+    <ContentCard header={header}>
+      <img src={image} alt={imageAlt} />
+      <div className="card-text">
+        {!text.length > 0 ?
+        "loading..." :
+        text.map(textBlock => <p key={textBlock.length}>{textBlock}</p>)}
+      </div>
+    </ContentCard>
+  );
 }
 
 export default AboutMe;

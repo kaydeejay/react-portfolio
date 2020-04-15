@@ -26,12 +26,12 @@ const cards = {
       {
         title: "Resume",
         faIcon: "far fa-5x fa-file",
-        href: ""
+        href: "#" // path to resume
       },
       {
         title: "Email",
-        faIcon: "",
-        href: ""
+        faIcon: "far fa-5x fa-envelope",
+        href: "mailto:kevin.jones215@gmail.com"
       }
     ]
   },
