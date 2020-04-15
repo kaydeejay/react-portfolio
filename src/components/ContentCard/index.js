@@ -21,4 +21,4 @@ const ContentCard = (props) => {
   )
 }
 
-export default ContentCard
+export default ContentCard;
