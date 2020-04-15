@@ -12,7 +12,8 @@
 
 .contact-link:hover {
   cursor: pointer;
-  color: #eee;
-  background-color: #4aaaa5;
+  /* color: #eee; */
+  color: #3e3e3e;
+  background-color: #B7B3BD;
   transition: 0.5s;
 }

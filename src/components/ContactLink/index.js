@@ -5,8 +5,8 @@ import './style.css';
 
 const ContactLink = (props) => {
   return (
-    <Col className="mr-auto">
-      <div className="contact-link">
+    <Col>
+      <div className="mr-auto ml-auto contact-link">
         <i className={props.faIcon}></i>
         <p>{props.title}</p>
       </div>
