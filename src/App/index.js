@@ -8,7 +8,6 @@ import Footer from '../components/Footer';
 import AboutMe from '../components/pages/AboutMe';
 import Contact from '../components/pages/Contact';
 import Portfolio from '../components/pages/Portfolio';
-import Resume from '../components/pages/Resume';
 
 import './style.css';
 
@@ -21,7 +20,6 @@ function App() {
         <Route exact path='/' component={AboutMe} />
         <Route exact path='/contact' component={Contact} />
         <Route exact path='/portfolio' component={Portfolio} />
-        <Route exact path='/resume' component={Resume} />
         <Footer />
       </div>
     </Router>
