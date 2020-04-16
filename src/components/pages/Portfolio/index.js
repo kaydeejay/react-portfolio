@@ -35,6 +35,8 @@ const Portfolio = () => {
               repoURL={project.repoURL}
               deployedURL={project.deployedURL}
             // some id to trigger the modal, maybe?
+            // then again it will probably be easier for each project card to have its
+            // own modal so that it won't be necessary to globalize props.
             />
           ))}
       </Row>
