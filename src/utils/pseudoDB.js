@@ -28,7 +28,7 @@ const cards = {
         key: 3,
         title: "Resume",
         faIcon: "far fa-5x fa-file",
-        href: "#" // path to resume
+        href: "/static/media/developer-resume.635fbfc9.pdf"
       },
       {
         key: 4,

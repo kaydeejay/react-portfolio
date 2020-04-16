@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import ContentCard from '../../ContentCard';
 import pseudoDB from '../../../utils/pseudoDB';
 
+import headshot from '../../../assets/images/kevin-image.png';
+
 import './style.css';
 
 const AboutMe = () => {
@@ -17,15 +19,15 @@ const AboutMe = () => {
       .then(res => setCardContent(res));
   }, []);
 
-  const { header, image, imageAlt, text } = cardContent;
+  const { header, imageAlt, text } = cardContent;
 
   return (
     <ContentCard header={header}>
-      <img src={image} alt={imageAlt} />
+      <img src={headshot} alt={imageAlt} />
       <div className="card-text">
         {!text.length > 0 ?
-        "loading..." :
-        text.map(textBlock => <p key={textBlock.length}>{textBlock}</p>)}
+          "loading..." :
+          text.map(textBlock => <p key={textBlock.length}>{textBlock}</p>)}
       </div>
     </ContentCard>
   );
