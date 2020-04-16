@@ -15,15 +15,14 @@ const cards = {
       {
         key: 1,
         title: "Github",
-        // <i class="fab fa-5x fa-github"></i>
         faIcon: "fab fa-5x fa-github",
-        href: "/github"
+        href: "https://github.com/kaydeejay"
       },
       {
         key: 2,
         title: "Linkedin",
         faIcon: "fab fa-5x fa-linkedin",
-        href: "/linkedin"
+        href: "https://www.linkedin.com/in/kevinjones215/"
       },
       {
         key: 3,
