@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
@@ -10,8 +11,8 @@ const ProjectCard = (props) => {
 
   const handleClose = () => setShow(false);
   const handleOpen = () => setShow(true);
-  const handleRepoOpen = () => console.log(props.repoURL);
-  const handleDeplOpen = () => console.log(props.)
+  const handleRepoOpen = () => { window.open(props.repoURL, "_blank") };
+  const handleDeplOpen = () => { window.open(props.deployedURL, "_blank") };
 
   return (
     <>
@@ -26,8 +27,8 @@ const ProjectCard = (props) => {
         <Modal.Footer>
           <Row>
             <Button onClick={handleRepoOpen}>Visit Repository</Button>
-            {props.repoURL ?
-              <Button onClick={handleDeplOpen}></Button> :
+            {props.deployedURL !== null ?
+              <Button onClick={handleDeplOpen}>View Deployed App</Button> :
               ""}
           </Row>
         </Modal.Footer>

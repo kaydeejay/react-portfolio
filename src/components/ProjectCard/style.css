@@ -45,3 +45,19 @@
   border: 3px solid #683ab7;
   border-radius: 2%;
 }
+
+.modal-footer {
+  justify-content: center !important;
+}
+
+.modal-footer button {
+  background-color: #683ab7;
+  color: #f8f9fa;
+  margin: 0 0.5rem 0 0.5rem;
+  border: 0;
+}
+
+.modal-footer button:hover {
+  /* color: #683ab7; */
+  background-color: #9575cc;
+}
