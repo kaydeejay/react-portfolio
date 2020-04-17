@@ -10,6 +10,8 @@ const ProjectCard = (props) => {
 
   const handleClose = () => setShow(false);
   const handleOpen = () => setShow(true);
+  const handleRepoOpen = () => console.log(props.repoURL);
+  const handleDeplOpen = () => console.log(props.)
 
   return (
     <>
