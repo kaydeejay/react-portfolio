@@ -19,7 +19,7 @@
 
 .project-wrapper:hover {
   cursor: pointer;
-  opacity: 50%;
+  opacity: 0.7;
   transition: 500ms;
 }
 
