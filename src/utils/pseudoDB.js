@@ -102,8 +102,10 @@ const cards = {
   }
 }
 
-module.exports = {
+const functions = {
   getAbout: async () => cards.about,
   getContact: async () => cards.contact,
   getPortfolio: async () => cards.portfolio
 }
+
+export default functions;
