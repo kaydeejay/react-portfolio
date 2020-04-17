@@ -7,6 +7,7 @@ const cards = {
       "I now live in Bucks County, PA, with my wife Kristin. I've been spending the last couple of years learning the fundamentals of programming and development, and I'm hoping to make a career change. I've always loved working with computers, both software and hardware."
     ],
     image: require('../assets/images/kevin-image.png'),
+    // image: "https://placekitten.com/200/200",
     imageAlt: "",
   },
   contact: {
