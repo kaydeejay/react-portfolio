@@ -46,7 +46,7 @@ const cards = {
         name: 'game-finder',
         title: 'GameFinder',
         description: 'Find a new gaming group: Create posts looking for games or players, or comment on games you\'d like to join',
-        screenshot: require('../assets/image/portfolio-image/game-finder.png'),
+        screenshot: require('../assets/images/portfolio-images/game-finder.png'),
         repoURL: 'https://github.com/kaydeejay/Game-Finder',
         deployedURL: 'https://game-finder-2020.herokuapp.com/'
       },
