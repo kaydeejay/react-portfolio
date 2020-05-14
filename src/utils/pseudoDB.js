@@ -43,6 +43,14 @@ const cards = {
     header: "Portfolio",
     projects: [
       {
+        name: 'game-finder',
+        title: 'GameFinder',
+        description: 'Find a new gaming group: Create posts looking for games or players, or comment on games you\'d like to join',
+        screenshot: require('../assets/image/portfolio-image/game-finder.png'),
+        repoURL: 'https://github.com/kaydeejay/Game-Finder',
+        deployedURL: 'https://game-finder-2020.herokuapp.com/'
+      },
+      {
         name: 'appetizer',
         title: 'APPetizer',
         description: 'Create your own online cookbook: search for recipes and save your favorites',
